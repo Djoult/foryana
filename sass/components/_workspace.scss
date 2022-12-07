@@ -1,0 +1,39 @@
+.works {
+    @extend %section;
+    padding-top: 0%;
+    display: none;
+
+    //     // mobile screen
+        @media screen and (max-width: 1199px) {
+            display: none;
+        }
+    
+        //     // desktop screen
+        @media screen and (min-width: 1200px) {
+            display: flex;
+        }
+}
+
+.works__item {
+    position: relative;
+}
+
+.works__overlay {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.works__text {
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+
+}

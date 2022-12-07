@@ -1,0 +1,29 @@
+
+// utils
+@import "./utils/variables";
+@import "./utils/placeholders";
+@import "./utils/mixins";
+@import "./utils/breakpoints";
+
+// base
+@import "./base/base";
+@import "./base/reset";
+
+// components
+@import "./components/section";
+@import "./components/container";
+@import "./components/typography";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/features";
+@import "./components/workspace";
+@import "./components/team";
+@import "./components/footer";
+@import "./components/socials";
+@import "./components/clients";
+@import "./components/modal";
+@import "./components/grid";
+@import "./components/subscribe";
+@import "./components/mobile-menu";
+
+

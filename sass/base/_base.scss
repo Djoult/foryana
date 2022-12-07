@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', 'Times New Roman', 'Verdana', 'Tahoma', sans-serif;
+    background-color: #FFFFFF;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+.features__list,
+.works__list,
+.team__list,
+.clients__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+title {
+    @media screen and (max-width: 1199px) {
+    margin-bottom: 30px;
+    }
+    @media screen and (min-width: $desktop) {
+    margin-bottom: 50px;
+    }
+}
